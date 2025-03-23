@@ -127,7 +127,7 @@ def get_conversational_chain():
 If the answer is found in the provided context, answer it with all available details.
 If the answer is NOT in the provided context, start with:
 
-"⚠️ The question is not related to the uploaded PDF, but here's the response:"
+"\n ⚠️ The question is not related to the uploaded PDF, but here's the response: \n"
 
 Then proceed to answer the question normally, even if it's outside the context.
 
