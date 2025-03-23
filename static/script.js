@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const documentsContainer = document.getElementById('documentsContainer');
     const activeDocumentName = document.getElementById('activeDocumentName');
 
-    const API_BASE_URL = 'http://localhost:8000';
+    const API_BASE_URL = 'https://docusage-lvuh.onrender.com'; // change it to localhost:8000 for local running
     let uploadedFiles = [];
     let activeFileIndex = -1;
     let processingStatus = 'idle';
